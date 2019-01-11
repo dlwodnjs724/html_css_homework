@@ -1,0 +1,33 @@
+* {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.travel {
+    width: 165px;
+    height: 58px;
+    margin-top: 80px;
+}
+
+.menu {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.menu a {
+    font-size: 16px;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #58595B;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+#now {
+    font-weight: bold;
+}
+
+.photo {
+    width: 90%;
+}

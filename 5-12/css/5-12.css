@@ -1,0 +1,23 @@
+#serif {
+    font-family: "Times New Roman", Serif;
+}
+
+#sans-serif {
+    font-family: "Arial", sans-serif;
+}
+
+#serif {
+    font-family: "Courier", monospace;
+}
+
+#cursive {
+    font-family: "Comic Sans MS", cursive;
+}
+
+#fantasy {
+    font-family: "Impact", fantasy;
+}
+
+#google {
+    font-family: 'Charm', cursive;
+}
