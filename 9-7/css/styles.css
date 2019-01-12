@@ -1,0 +1,21 @@
+body {
+    margin: 50px 0;
+}
+
+h1 {
+    font-family: 'Noto Sans KR', sans-serif;
+    margin: 0 auto 20px;
+    text-align: center;
+}
+
+.images {
+    text-align: center;
+}
+
+img {
+    width: 70px;
+}
+
+.images a:not(:last-child) {
+    margin-right: 20px;
+}
