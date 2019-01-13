@@ -6,9 +6,6 @@
 * {
   box-sizing: border-box;
   font-family: 'Jua', sans-serif;
-  color: #58595B;
-  margin-left: auto;
-  margin-right: auto;
   text-align: center;
 }
 
@@ -17,20 +14,26 @@ body {
 }
 
 #main_title {
-  margin: 75px auto 30px;
+  color: #58595B;
+  margin: 75px 0 30px;
   font-size: 64px;
 }
 
 #sub_title {
+  color: #58595B;
   margin-bottom: 75px;
 }
 
 .menu {
-  width: 300px;
+  width: 630px;
+  margin-left: auto;
+  margin-right: auto
 }
 
 .food {
   margin-bottom: 50px;
+  float: left;
+  width: 300px;
 }
 
 .photo {
@@ -49,11 +52,13 @@ body {
 }
 
 .name {
+  color: #58595B;
   font-size: 32px;
   margin: 0;
 }
 
 .description {
+  color: #58595B;
   font-size: 16px;
   margin: 20px 0 16px;
   text-align: left;
@@ -63,4 +68,8 @@ body {
   font-size: 16px;
   color: #0000EE;
   text-decoration: none;
+}
+
+.menu div:first-child, .menu div:nth-child(3) {
+  margin-right: 30px;
 }
