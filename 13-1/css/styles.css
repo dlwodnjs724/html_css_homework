@@ -1,0 +1,113 @@
+/* navbar */
+
+#navbar {
+    height: 60px;
+    /*border: 2px solid red;*/
+}
+
+#logo {
+    display: inline-block;
+    padding-left: 30px;
+    line-height: 60px;
+}
+
+#logo img {
+    vertical-align: middle;
+    line-height: normal;
+    height: 20px;
+}
+
+#menu {
+    float: right;
+    list-style: none;
+    margin: 0;
+    padding: 0 30px 0 0;
+}
+
+#menu li {
+    float: left;
+    line-height: 60px;
+}
+
+#menu li:not(:last-child) {
+    margin-right: 30px;
+}
+
+#menu li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-family: Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#menu li a:hover{
+    background-color: #eeeeee;
+}
+
+/* main */
+
+#main-container > h2 {
+    margin: 60px 0;
+    font-family: Helvetica, sans-serif;
+    font-size: 24px;
+    color: #545454;
+    font-weight: bold;
+    text-align: center;
+}
+
+.item-container {
+    width: 715px;
+    display: block;
+    margin: 0 auto;
+}
+
+.product {
+    width: 225px;
+    margin: 0 0 80px;
+    text-align: center;
+    float: left;
+}
+
+.center {
+    margin: 0 20px;
+}
+
+.product a {
+    text-decoration: none;
+    color: black;
+}
+
+.product img {
+    display: block;
+    width: 225px;
+    height: 225px;
+}
+
+.product p {
+    margin: 20px 0 4px;
+}
+
+.last {
+    margin-bottom: 0;
+}
+
+#helper {
+    clear: left;
+}
+
+/* icon */
+
+.icon {
+    text-align: center;
+    margin: 120px 0 80px;
+}
+
+.icon a {
+    text-decoration: none;
+}
+
+.icon img {
+    margin: 0 10px;
+}

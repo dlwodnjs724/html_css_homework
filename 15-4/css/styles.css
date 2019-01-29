@@ -1,0 +1,97 @@
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+
+/* carousel */
+
+.carousel-item {
+  background-size: cover;
+  height: 400px;
+  line-height: 400px;
+}
+
+.guitar {
+  background-image: url("../images/guitar.jpg");
+  background-position: left center;
+  text-align: center;
+}
+
+.makeup {
+  background-image: url("../images/makeup.jpg");
+  background-position: center top;
+  text-align: center;
+}
+
+.cooking {
+  background-image: url("../images/cooking.jpg");
+  background-position: center center;
+  text-align: center;
+}
+
+.intro {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+}
+
+.intro > h3 {
+  font-size: 32px;
+  font-weight: 400;
+  color: white;
+  margin-bottom: 18px;
+}
+
+.intro > p {
+  font-size: 22px;
+  font-weight: 300;
+  color: white;
+  margin-bottom: 48px;
+}
+
+.intro > button {
+  background-color: #5900E7;
+  font-size: 16px;
+  color: white;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 5px;
+}
+
+/* main */
+.container {
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+
+.courses > div > a {
+  text-decoration: none;
+  color: #4A4A4A;
+}
+
+.course_box {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.15);
+  margin-bottom: 20px;
+}
+
+.course {
+  padding: 10px;
+  line-height: 100%;
+}
+
+.course > h5 {
+  font-size: 18px;
+  color: #4A4A4A;
+  margin-bottom: 10px;
+}
+
+.course_user {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+}
+
+.course > small {
+  font-size: 13px;
+  color: #4A4A4A;
+}
